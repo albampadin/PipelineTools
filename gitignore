@@ -1,0 +1,18 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Config de editor .vscode/
+
+# Presets de usuario generados en uso normal
+presets/*.json
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
