@@ -28,10 +28,13 @@ Actualmente el proyecto incluye tres herramientas orientadas a la gestión y org
   - Opción de mover o copiar los elementos seleccionados.
 
 - **File Cleaner**
-  - Detección de archivos que pueden ser eliminados segun criterios (Carpetas vacías, duplicados, archivos temporales, archivos antiguos y grandes archivos).
+  - Detección de archivos que pueden ser eliminados según criterios (Carpetas vacías, duplicados, archivos temporales, archivos antiguos y grandes archivos).
   - Preview antes de borrar.
   - Selección de elementos.
   - Aplicación controlada de las operaciones.
+ 
+
+---
 
 ## Uso
 ```
@@ -40,11 +43,13 @@ Actualmente el proyecto incluye tres herramientas orientadas a la gestión y org
 
 Esto abre una única ventana con un panel lateral para cambiar entre herramientas. Las herramientas siguen un flujo común:
 
-**Selecionar Carpeta → Preview → Revisar y Seleccionar → Aplicar**
+**Seleccionar Carpeta → Preview → Revisar y Seleccionar → Aplicar**
 
 La aplicación no modifica archivos directamente al generar una preview.
 Primero se genera un plan de operaciones que el usuario puede revisar y seleccionar qué elementos quiere procesar para finalmente aplicar los cambios.
 Este enfoque busca reducir errores y hacer las operaciones sobre archivos más seguras y predecibles.
+
+---
 
 ## Tecnologías
 
@@ -79,11 +84,15 @@ PipelineTools/
 
 Añadir una herramienta nueva no requiere tocar **'launcher.py'** más que para registrarla en *TOOL_REGISTRY*: solo hace falta un módulo en *CORE/<Herramienta>/* con la lógica pura y una clase en *UI/* que herede de **'BaseTool.py'**.
 
+---
+
 ## Estado del proyecto
 
 El proyecto se encuentra actualmente en desarrollo.
 Las herramientas se están construyendo progresivamente manteniendo una estructura común tanto entre interfaz como en lógica.
 
+---
+
 ## Licencia
-Este proyecto está bajo liecencia MIT - ver
+Este proyecto está bajo licencia MIT - ver [LICENSE](LICENSE).
 La interfaz se encarga de la interacción con el usuario y el CORE se encarga de generar y ejecutar los planes de operaciones
