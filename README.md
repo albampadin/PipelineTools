@@ -33,7 +33,7 @@ Actualmente el proyecto incluye tres herramientas orientadas a la gestión y org
   - Selección de elementos.
   - Aplicación controlada de las operaciones.
  
-[![Vista general de la herramienta](images/demo.jpg)]((images/demo.jpg)
+[![Vista general de la herramienta](images/demo.jpg)](images/demo.jpg)
 
 ---
 
