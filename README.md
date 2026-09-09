@@ -83,7 +83,7 @@ PipelineTools/
 └── launcher.py
 ```
 
-Adding a new tool doesn't require touching **'launcher.py'** beyond registering it in *TOOL_REGISTRY*: you only need a module in *CORE/<Tool>/*
+Adding a new tool doesn't require touching **'launcher.py'** beyond registering it in *TOOL_REGISTRY*: you only need a module in *CORE/<Tool_Name>/*
 with the pure logic and a class in *UI/* that inherits from **'BaseTool.py'**.
 
 ---
