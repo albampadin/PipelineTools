@@ -96,4 +96,3 @@ Las herramientas se están construyendo progresivamente manteniendo una estructu
 
 ## Licencia
 Este proyecto está bajo licencia MIT - ver [LICENSE](LICENSE).
-La interfaz se encarga de la interacción con el usuario y el CORE se encarga de generar y ejecutar los planes de operaciones
